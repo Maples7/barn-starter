@@ -29,6 +29,10 @@ deploy:
   repos:
     github: git@github.com:Maples7/resume.git
 
+## CNAME
+### If you have a custom domain, specify it here, e.g. cv.maples7.com
+cname: 
+
 ## html compression
 html_minifier:
   enable: false
