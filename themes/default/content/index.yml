@@ -43,6 +43,7 @@ work_exprience:
     XXXX检测: 主要负责使用 Node.js 技术栈进行 Web 后端开发，涉及 Express／Koa 框架、MySQL 关系型数据库、MongoDB 非关系型数据库、Redis 缓存数据库等。也曾简单使用 Vue.js 构建前端XXXXXXXXXXXXXXXXXX用户界面。在部分项目中还使用过 PHP 与 .NET Core 进行项目的构建和日常维护工作，对后端技术比较了解。
     XXXXXX: 主要负责使用 Node.js 技术栈进行 Web 后端开发，涉及 Express／Koa 框架、MySQL 关系型数据库、MongoDB 非关系型数据库、Redis 缓存数据库等。
 
+# `link` in each key is optional
 personal_work:
   barn: 
     link: https://github.com/Maples7/barn

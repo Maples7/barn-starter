@@ -62,8 +62,11 @@ html(lang='zh')
               ul(class='list')
                 each val, index in personal_work
                   li
-                    a(style='font-weight: 900' href= val.link target='_blank')= index + ': '
-                    span= val.content
+                    if val.link
+                      a(style='font-weight: 900' href= val.link target='_blank')= index
+                    else 
+                      span(style='font-weight: 900')= index
+                    span= ': ' + val.content
 
         div(class='module')
           h1(class='title') 技能评估
